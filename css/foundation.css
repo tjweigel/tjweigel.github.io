@@ -59,7 +59,7 @@ body {
 
 body {
   background: #fff;
-  color: #333333;
+  color: #1e1e1e;
   cursor: auto;
   font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-style: normal;
@@ -1162,52 +1162,6 @@ select {
     .inline-list > li > * {
       display: block; }
 
-ul.pagination {
-  display: block;
-  margin-left: -0.3125rem;
-  min-height: 1.5rem; }
-  ul.pagination li {
-    color: #222222;
-    font-size: 0.875rem;
-    height: 1.5rem;
-    margin-left: 0.3125rem; }
-    ul.pagination li a, ul.pagination li button {
-      border-radius: 3px;
-      transition: background-color 300ms ease-out;
-      background: none;
-      color: #999999;
-      display: block;
-      font-size: 1em;
-      font-weight: normal;
-      line-height: inherit;
-      padding: 0.0625rem 0.625rem 0.0625rem; }
-    ul.pagination li:hover a,
-    ul.pagination li a:focus, ul.pagination li:hover button,
-    ul.pagination li button:focus {
-      background: #e6e6e6; }
-    ul.pagination li.unavailable a, ul.pagination li.unavailable button {
-      cursor: default;
-      color: #999999; }
-    ul.pagination li.unavailable:hover a, ul.pagination li.unavailable a:focus, ul.pagination li.unavailable:hover button, ul.pagination li.unavailable button:focus {
-      background: transparent; }
-    ul.pagination li.current a, ul.pagination li.current button {
-      background: #1c83db;
-      color: #FFFFFF;
-      cursor: default;
-      font-weight: bold; }
-      ul.pagination li.current a:hover, ul.pagination li.current a:focus, ul.pagination li.current button:hover, ul.pagination li.current button:focus {
-        background: #1c83db; }
-  ul.pagination li {
-    display: block;
-    float: left; }
-
-/* Pagination centred wrapper */
-.pagination-centered {
-  text-align: center; }
-  .pagination-centered ul.pagination li {
-    display: inline-block;
-    float: none; }
-
 .text-left {
   text-align: left !important; }
 
@@ -1365,11 +1319,11 @@ td {
 
 /* Default Link Styles */
 a {
-  color: #1c83db;
+  color: #0000ff;
   line-height: inherit;
   text-decoration: none; }
   a:hover, a:focus {
-    color: #1871bc; }
+    color: #0000db; }
   a img {
     border: none; }
 
@@ -1391,7 +1345,7 @@ p {
 
 /* Default header styles */
 h1, h2, h3, h4, h5, h6 {
-  color: #1a1a1a;
+  color: #1e1e1e;
   font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -1400,7 +1354,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 0.2rem;
   text-rendering: optimizeLegibility; }
   h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
-    color: #6a6a6a;
+    color: #6d6d6d;
     font-size: 60%;
     line-height: 0; }
 
@@ -1424,7 +1378,7 @@ h6 {
 
 .subheader {
   line-height: 1.4;
-  color: #6a6a6a;
+  color: #6d6d6d;
   font-weight: normal;
   margin-top: 0.2rem;
   margin-bottom: 0.5rem; }
@@ -1452,8 +1406,8 @@ small {
   line-height: inherit; }
 
 code {
-  background-color: #f9f9f9;
-  border-color: #e0e0e0;
+  background-color: #e3e3e3;
+  border-color: #cccccc;
   border-style: solid;
   border-width: 1px;
   color: #333333;
@@ -1520,7 +1474,7 @@ abbr,
 acronym {
   text-transform: uppercase;
   font-size: 90%;
-  color: #333333;
+  color: #1e1e1e;
   cursor: help; }
 
 abbr {
@@ -1536,17 +1490,17 @@ blockquote {
   blockquote cite {
     display: block;
     font-size: 0.8125rem;
-    color: #4f4f4f; }
+    color: #525252; }
     blockquote cite:before {
       content: "\2014 \0020"; }
     blockquote cite a,
     blockquote cite a:visited {
-      color: #4f4f4f; }
+      color: #525252; }
 
 blockquote,
 blockquote p {
   line-height: 1.6;
-  color: #6a6a6a; }
+  color: #6d6d6d; }
 
 /* Microformats */
 .vcard {
@@ -1591,118 +1545,6 @@ blockquote p {
 
   h6 {
     font-size: 1rem; } }
-.reveal-modal-bg {
-  background: #000000;
-  background: rgba(0, 0, 0, 0.45);
-  bottom: 0;
-  display: none;
-  left: 0;
-  position: fixed;
-  right: 0;
-  top: 0;
-  z-index: 1004;
-  left: 0; }
-
-.reveal-modal {
-  border-radius: 3px;
-  display: none;
-  position: absolute;
-  top: 0;
-  visibility: hidden;
-  width: 100%;
-  z-index: 1005;
-  left: 0;
-  background-color: #FFFFFF;
-  padding: 1.875rem;
-  border: solid 1px #666666;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4); }
-  @media only screen and (max-width: 40em) {
-    .reveal-modal {
-      min-height: 100vh; } }
-  .reveal-modal .column, .reveal-modal .columns {
-    min-width: 0; }
-  .reveal-modal > :first-child {
-    margin-top: 0; }
-  .reveal-modal > :last-child {
-    margin-bottom: 0; }
-  @media only screen and (min-width: 40.0625em) {
-    .reveal-modal {
-      left: 0;
-      margin: 0 auto;
-      max-width: 62.5em;
-      right: 0;
-      width: 80%; } }
-  @media only screen and (min-width: 40.0625em) {
-    .reveal-modal {
-      top: 6.25rem; } }
-  .reveal-modal.radius {
-    border-radius: 3px; }
-  .reveal-modal.round {
-    border-radius: 1000px; }
-  .reveal-modal.collapse {
-    padding: 0; }
-  @media only screen and (min-width: 40.0625em) {
-    .reveal-modal.tiny {
-      left: 0;
-      margin: 0 auto;
-      max-width: 62.5em;
-      right: 0;
-      width: 30%; } }
-  @media only screen and (min-width: 40.0625em) {
-    .reveal-modal.small {
-      left: 0;
-      margin: 0 auto;
-      max-width: 62.5em;
-      right: 0;
-      width: 40%; } }
-  @media only screen and (min-width: 40.0625em) {
-    .reveal-modal.medium {
-      left: 0;
-      margin: 0 auto;
-      max-width: 62.5em;
-      right: 0;
-      width: 60%; } }
-  @media only screen and (min-width: 40.0625em) {
-    .reveal-modal.large {
-      left: 0;
-      margin: 0 auto;
-      max-width: 62.5em;
-      right: 0;
-      width: 70%; } }
-  @media only screen and (min-width: 40.0625em) {
-    .reveal-modal.xlarge {
-      left: 0;
-      margin: 0 auto;
-      max-width: 62.5em;
-      right: 0;
-      width: 95%; } }
-  .reveal-modal.full {
-    height: 100vh;
-    height: 100%;
-    left: 0;
-    margin-left: 0 !important;
-    max-width: none !important;
-    min-height: 100vh;
-    top: 0; }
-    @media only screen and (min-width: 40.0625em) {
-      .reveal-modal.full {
-        left: 0;
-        margin: 0 auto;
-        max-width: 62.5em;
-        right: 0;
-        width: 100%; } }
-  .reveal-modal.toback {
-    z-index: 1003; }
-  .reveal-modal .close-reveal-modal {
-    color: #AAAAAA;
-    cursor: pointer;
-    font-size: 2.5rem;
-    font-weight: bold;
-    line-height: 1;
-    position: absolute;
-    top: 0.625rem;
-    right: 1.375rem; }
-
 table {
   background: #FFFFFF;
   border: solid 1px #DDDDDD;
