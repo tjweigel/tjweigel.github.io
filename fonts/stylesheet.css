@@ -1,0 +1,21 @@
+/*@font-face*/
+
+@font-face {
+	font-family: 'UniversLTStd';
+	src: url('UniversLTStd.eot');
+	src: url('UniversLTStd.eot?#iefix') format('embedded-opentype'),
+		url('UniversLTStd.woff') format('woff'),
+		url('UniversLTStd.ttf')  format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'UniversLTStd';
+	src: url('UniversLTStd-Light.eot');
+	src: url('UniversLTStd-Light.eot?#iefix') format('embedded-opentype'),
+		url('UniversLTStd-Light.woff') format('woff'),
+		url('UniversLTStd-Light.ttf')  format('truetype');
+	font-weight: 300;
+	font-style: normal;
+}
