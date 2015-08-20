@@ -36,7 +36,7 @@ a:hover {
 
 .header {
   height: auto;
-  padding: 40px 0px 80px;
+  padding: 50px 0px 100px;
   line-height: 36px;
 }
 
@@ -66,7 +66,6 @@ a:hover {
 }
 
 .logo a {
-  font-weight: 400;
   color: #1e1e1e;
 }
 
@@ -78,19 +77,14 @@ a:hover {
 /*Main*/
 
 .main {
-  padding-bottom: 80px;
+  padding-bottom: 50px;
 }
-
-.main b {
-  font-weight: 300;
-}
-
 
 /*Footer*/
 
 footer {
   height: auto;
-  padding: 40px 0;
+  padding: 50px 0;
 }
 
 footer, footer a {
