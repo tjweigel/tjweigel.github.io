@@ -22,13 +22,13 @@ p {
 
 a {
   font-size: 18px;
-  color: #a0a0a0;
-  text-decoration: none;
+  color: #1e1e1e;
   border-bottom: 1px solid;
 }
 
 a:hover {
-  color: #1e1e1e;
+  color: #ffc700;
+  border-bottom: transparent;
 }
 
 
@@ -41,8 +41,12 @@ a:hover {
 }
 
 .header a {
-  text-decoration: none;
+  color: #a0a0a0;
   border-bottom: none;
+}
+
+.header a:hover {
+  color: #1e1e1e
 }
 
 .header ul {
@@ -58,7 +62,7 @@ a:hover {
 }
 
 .header li a {
-  padding-right: 1.5rem;
+  margin-right: 1.5rem;
 }
 
 .logo a {
@@ -71,7 +75,7 @@ a:hover {
 }
 
 
-/*Main Body*/
+/*Main*/
 
 .main {
   padding-bottom: 80px;
@@ -81,15 +85,24 @@ a:hover {
   font-weight: 300;
 }
 
+
 /*Footer*/
 
 footer {
   height: auto;
   padding: 40px 0;
-  color: #a0a0a0;
 }
 
-hr{
+footer, footer a {
+  color: #a0a0a0;
+  border-bottom: none;
+}
+
+footer a:hover {
+  color: #1e1e1e;
+}
+
+hr {
   border: solid #f0f0f0;
   border-width: 1px 0 0;
 }
