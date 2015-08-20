@@ -6,7 +6,6 @@ If you want to use the source code, be my guest:
 
 - `git clone` it somewhere
 - Change important information to match your own
-- [Turn down for what?](https://youtu.be/HMUDVMiITOU)
 
 ## Who's This Repo is For?
 This repo is for me. I host my code on GitHub for convenience, tracking changes, and peace of mind. Beyond needing a personal website, I have open-sourced this repo for you or anyone that wants to explore and practice writing code.
