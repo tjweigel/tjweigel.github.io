@@ -1,0 +1,102 @@
+/*Custom CSS*/
+
+
+/*Typography*/
+
+h1, h2, h3, h4, h5, h6, p, body {
+  font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+}
+
+body {
+  color: #1e1e1e;
+  background: #fff;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  padding: 1.5rem;
+}
+
+p {
+  font-size: 18px;
+}
+
+a {
+  font-size: 18px;
+  color: #1e1e1e;
+  border-bottom: 1px solid;
+}
+
+a:hover {
+  color: #4CE957;
+  border-bottom: transparent;
+}
+
+
+/*Header*/
+
+.header {
+  height: auto;
+  padding: 50px 0px 100px;
+  line-height: 36px;
+}
+
+.header a {
+  color: #a0a0a0;
+  border-bottom: none;
+}
+
+.header a:hover {
+  color: #1e1e1e
+}
+
+.header ul {
+  margin: 0;
+}
+
+.header li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  line-height: 36px;
+  display: inline-block;
+}
+
+.header li a {
+  margin-right: 1.5rem;
+}
+
+.logo a {
+  color: #1e1e1e;
+}
+
+.logo a:hover {
+  color: #0068ff;
+}
+
+
+/*Main*/
+
+.main {
+  padding-bottom: 50px;
+}
+
+/*Footer*/
+
+footer {
+  height: auto;
+  padding: 50px 0;
+}
+
+footer, footer a {
+  color: #a0a0a0;
+  border-bottom: none;
+}
+
+footer a:hover {
+  color: #1e1e1e;
+}
+
+hr {
+  border: solid #f0f0f0;
+  border-width: 1px 0 0;
+}
