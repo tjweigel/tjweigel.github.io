@@ -27,7 +27,7 @@ a {
 }
 
 a:hover {
-  color: #6dd7e7;
+  color: #4b32f0;
   border-bottom: transparent;
 }
 
@@ -69,9 +69,9 @@ a:hover {
   color: #1e1e1e;
 }
 
-.logo a:hover {
-  color: #39d45b;
-}
+/*.logo a:hover {*/
+/*  color: #4b32f0;*/
+/*}*/
 
 
 /*Main*/
