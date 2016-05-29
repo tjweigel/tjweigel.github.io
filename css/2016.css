@@ -36,8 +36,14 @@ a:hover {
 
 .header {
   height: auto;
-  padding: 50px 0px 100px;
-  line-height: 36px;
+}
+
+.desktop {
+  padding: 50px 0;
+}
+
+.mobile {
+  padding: 0 0 25px;
 }
 
 .header a {
@@ -46,57 +52,56 @@ a:hover {
 }
 
 .header a:hover {
-  color: #1e1e1e
-}
-
-.header ul {
-  margin: 0;
-}
-
-.header li {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  line-height: 36px;
-  display: inline-block;
-}
-
-.header li a {
-  margin-right: 1.5rem;
+  color: #1e1e1e;
 }
 
 .logo a {
   color: #1e1e1e;
+  font-weight: 400;
 }
 
 /*.logo a:hover {*/
 /*  color: #4b32f0;*/
 /*}*/
 
+.logo.text-right {
+  float: right;
+}
+
+.menu > li > a {
+  margin: 0 0 0 4rem;
+  padding: 0;
+  line-height: inherit;
+}
+
+.menu.vertical > li > a {
+  margin: 0;
+}
+
 
 /*Main*/
 
 .main {
-  padding-bottom: 50px;
+  height: auto;
+  padding: 100px 0;
 }
+
 
 /*Footer*/
 
-footer {
+.footer {
   height: auto;
-  padding: 50px 0;
 }
 
-footer, footer a {
+.footer, .footer a {
   color: #a0a0a0;
   border-bottom: none;
 }
 
-footer a:hover {
+.footer a:hover {
   color: #1e1e1e;
 }
 
 hr {
-  border: solid #f0f0f0;
-  border-width: 1px 0 0;
+  border-color: #f0f0f0;
 }
