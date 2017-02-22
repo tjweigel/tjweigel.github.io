@@ -24,6 +24,8 @@ a {
   font-size: 18px;
   color: #1e1e1e;
   border-bottom: 1px solid;
+  transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
 }
 
 a:hover {
