@@ -1,6 +1,5 @@
 /*Custom CSS*/
 
-
 /*Typography*/
 
 h1, h2, h3, h4, h5, h6, p, body {
@@ -9,11 +8,11 @@ h1, h2, h3, h4, h5, h6, p, body {
 }
 
 body {
-  color: #1e1e1e;
-  background: #fff;
+  color: #fff;
+  background: #0a0a0a;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
-  padding: 1.5rem;
+  padding: 0;
 }
 
 p {
@@ -22,16 +21,24 @@ p {
 
 a {
   font-size: 18px;
-  color: #1e1e1e;
-  border-bottom: 1px solid;
+  color: #fff;
   transition: all 0.2s ease-in-out;
   -webkit-transition: all 0.2s ease-in-out;
 }
 
 a:hover {
-  color: #4b32f0;
+  color: #999;
+}
+
+.miami {
+  border-bottom: 2px solid;
+}
+
+.miami:hover {
+  color: #fac8fb;
   border-bottom: transparent;
 }
+
 
 
 /*Header*/
@@ -45,40 +52,9 @@ a:hover {
 }
 
 .mobile {
-  padding: 0 0 25px;
+  padding: 25px 0;
 }
 
-.header a {
-  color: #a0a0a0;
-  border-bottom: none;
-}
-
-.header a:hover {
-  color: #1e1e1e;
-}
-
-.logo a {
-  color: #1e1e1e;
-  font-weight: 400;
-}
-
-/*.logo a:hover {*/
-/*  color: #4b32f0;*/
-/*}*/
-
-.logo.text-right {
-  float: right;
-}
-
-.menu > li > a {
-  margin: 0 0 0 4rem;
-  padding: 0;
-  line-height: inherit;
-}
-
-.menu.vertical > li > a {
-  margin: 0;
-}
 
 
 /*Main*/
@@ -89,21 +65,30 @@ a:hover {
 }
 
 
-/*Footer*/
 
-.footer {
-  height: auto;
+/*Media Queries*/
+
+/*Small only*/
+@media screen and (max-width: 39.9375em) {
+  p, .miami{
+    font-size: 26px;
+    line-height: 38px;
+  }
 }
 
-.footer, .footer a {
-  color: #a0a0a0;
-  border-bottom: none;
+/*Medium only*/
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {
+  p, .miami{
+    font-size: 36px;
+    line-height: 48px;
+  }
 }
 
-.footer a:hover {
-  color: #1e1e1e;
-}
-
-hr {
-  border-color: #f0f0f0;
+/*Large and up*/
+@media screen and (min-width: 64em) {
+  p, .miami{
+    font-size: 44px;
+    line-height: 60px;
+    text-align: center;
+  }
 }
