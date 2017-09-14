@@ -2,14 +2,22 @@
 
 /*Typography*/
 
+@font-face {
+	font-family: 'SF Pro Display';
+	src: url('/SFProDisplay-Light.woff2') format('woff2'),
+		   url('/SFProDisplay-Light.woff') format('woff'),
+       url('/SFProDisplay-Light.ttf') format('truetype');
+}
+
 h1, h2, h3, h4, h5, h6, p, body {
-  font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 300;
+  font-family: "SF Pro Display","Helvetica Neue","Helvetica","Arial",sans-serif;
+  font-weight: normal;
+  letter-spacing: .016em;
 }
 
 body {
-  color: #fff;
-  background: #0a0a0a;
+  color: #333;
+  background: #fff;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   padding: 0;
@@ -21,16 +29,18 @@ p {
 
 a {
   font-size: 18px;
-  color: #fff;
+  color: #000;
   transition: all 0.2s ease-in-out;
   -webkit-transition: all 0.2s ease-in-out;
 }
 
 a:hover {
-  color: #999;
+  color: #000;
+  opacity: .65;
 }
 
 .miami {
+  color:#333;
   border-bottom: 2px solid;
 }
 
