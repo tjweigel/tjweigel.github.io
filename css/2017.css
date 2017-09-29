@@ -3,16 +3,15 @@
 /*Typography*/
 
 @font-face {
-	font-family: 'SF Pro Display';
-	src: url('/SFProDisplay-Light.woff2') format('woff2'),
-		   url('/SFProDisplay-Light.woff') format('woff'),
-       url('/SFProDisplay-Light.ttf') format('truetype');
+	font-family: 'Atlas Grotesk';
+	src: url('/AtlasGrotesk-Regular.woff2') format('woff2'),
+		   url('/AtlasGrotesk-Regular.woff') format('woff'),
+       url('/AtlasGrotesk-Regular.ttf') format('truetype');
 }
 
 h1, h2, h3, h4, h5, h6, p, body {
-  font-family: "SF Pro Display","Helvetica Neue","Helvetica","Arial",sans-serif;
+  font-family: "Atlas Grotesk","Helvetica Neue","Helvetica","Arial",sans-serif;
   font-weight: normal;
-  letter-spacing: .016em;
 }
 
 body {
@@ -30,8 +29,8 @@ p {
 a {
   font-size: 18px;
   color: #000;
-  transition: all 0.2s ease-in-out;
-  -webkit-transition: all 0.2s ease-in-out;
+  transition: color 0.1s ease;
+  -webkit-transition: color 0.1s ease;
 }
 
 a:hover {
@@ -40,13 +39,12 @@ a:hover {
 }
 
 .miami {
-  color:#333;
-  border-bottom: 2px solid;
+  color:#35de79;
 }
 
 .miami:hover {
-  color: #fac8fb;
-  border-bottom: transparent;
+  color: #333;
+  opacity: 1;
 }
 
 
