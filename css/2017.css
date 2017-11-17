@@ -15,27 +15,20 @@ h1, h2, h3, h4, h5, h6, p, body {
 }
 
 body {
-  color: #333;
+  color: #000;
   background: #fff;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
-  padding: 0;
-}
-
-p {
-  font-size: 18px;
 }
 
 a {
-  font-size: 18px;
   color: #000;
   transition: color 0.1s ease;
   -webkit-transition: color 0.1s ease;
 }
 
-a:hover {
-  color: #000;
-  opacity: .65;
+a:hover, a:focus {
+  color: #999;
 }
 
 .miami {
@@ -43,24 +36,7 @@ a:hover {
 }
 
 .miami:hover {
-  color: #333;
-  opacity: 1;
-}
-
-
-
-/*Header*/
-
-.header {
-  height: auto;
-}
-
-.desktop {
-  padding: 50px 0;
-}
-
-.mobile {
-  padding: 25px 0;
+  color: #000;
 }
 
 
@@ -69,7 +45,20 @@ a:hover {
 
 .main {
   height: auto;
-  padding: 100px 0;
+  padding: 14rem 0 0;
+}
+
+
+
+/*Footer*/
+
+.footer {
+  height: auto;
+	padding: 6rem 0 0;
+}
+
+.footer .menu > li > a {
+	padding: 0.7rem 1rem 0.7rem 0;
 }
 
 
@@ -79,24 +68,23 @@ a:hover {
 /*Small only*/
 @media screen and (max-width: 39.9375em) {
   p, .miami{
-    font-size: 26px;
-    line-height: 38px;
+    font-size: 1.375rem;
+    line-height: 2rem;
   }
 }
 
 /*Medium only*/
 @media screen and (min-width: 40em) and (max-width: 63.9375em) {
   p, .miami{
-    font-size: 36px;
-    line-height: 48px;
+    font-size: 1.75rem;
+    line-height: 3rem;
   }
 }
 
 /*Large and up*/
 @media screen and (min-width: 64em) {
   p, .miami{
-    font-size: 44px;
-    line-height: 60px;
-    text-align: center;
+    font-size: 2rem;
+    line-height: 3rem;
   }
 }
