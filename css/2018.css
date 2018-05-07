@@ -3,14 +3,14 @@
 /*Typography*/
 
 @font-face {
-	font-family: 'Atlas Grotesk';
-	src: url('/AtlasGrotesk-Regular.woff2') format('woff2'),
-		   url('/AtlasGrotesk-Regular.woff') format('woff'),
-       url('/AtlasGrotesk-Regular.ttf') format('truetype');
+	font-family: 'NeueHaasGrotesk';
+	src: url('/NHaasGroteskDSPro-65Md.woff2') format('woff2'),
+		   url('/NHaasGroteskDSPro-65Md.woff') format('woff'),
+       url('/NHaasGroteskDSPro-65Md.ttf') format('truetype');
 }
 
 h1, h2, h3, h4, h5, h6, p, body {
-  font-family: "Atlas Grotesk","Helvetica Neue","Helvetica","Arial",sans-serif;
+  font-family: "NeueHaasGrotesk", sans-serif;
   font-weight: normal;
 }
 
