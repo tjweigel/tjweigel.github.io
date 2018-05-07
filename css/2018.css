@@ -15,14 +15,14 @@ h1, h2, h3, h4, h5, h6, p, body {
 }
 
 body {
-  color: #000;
-  background: #fff;
+  color: #fff;
+  background: #000;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
 }
 
 a {
-  color: #000;
+  color: #888;
   transition: color 0.1s ease;
   -webkit-transition: color 0.1s ease;
 }
@@ -32,11 +32,15 @@ a:hover, a:focus {
 }
 
 .miami {
-  color:#35de79;
+	color: #00ff00;
+	border-bottom: 3px solid;
+	border-color: rgba(0, 255, 0, 0.1);
 }
 
 .miami:hover {
-  color: #000;
+  color: #00ff00;
+	border-bottom: 3px solid;
+	border-color: rgba(0, 255, 0, 1);
 }
 
 
