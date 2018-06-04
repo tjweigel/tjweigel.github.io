@@ -4,43 +4,43 @@
 
 @font-face {
 	font-family: 'NeueHaasGrotesk';
-	src: url('/NHaasGroteskDSPro-65Md.woff2') format('woff2'),
-		   url('/NHaasGroteskDSPro-65Md.woff') format('woff'),
-       url('/NHaasGroteskDSPro-65Md.ttf') format('truetype');
+	src:	url('/NHaasGroteskDSPro-65Md.woff2') format('woff2'),
+				url('/NHaasGroteskDSPro-65Md.woff') format('woff'),
+				url('/NHaasGroteskDSPro-65Md.ttf') format('truetype');
 }
 
 h1, h2, h3, h4, h5, h6, p, body {
-  font-family: "NeueHaasGrotesk", sans-serif;
-  font-weight: normal;
+	font-family: "NeueHaasGrotesk", sans-serif;
+	font-weight: normal;
 }
 
 body {
-  color: #fff;
-  background: #000;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
+	color: #fff;
+	background: #000;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
 }
 
 a {
-  color: #888;
-  transition: color 0.1s ease;
-  -webkit-transition: color 0.1s ease;
+	color: #888;
+	transition: color 0.1s ease;
+	-webkit-transition: color 0.1s ease;
 }
 
 a:hover, a:focus {
-  color: #999;
+	color: #999;
 }
 
 .miami {
-	color: #00ff00;
+	color: #29fc30;
 	border-bottom: 3px solid;
-	border-color: rgba(0, 255, 0, 0.1);
+	border-color: rgba(41, 252, 48, 0.1);
 }
 
 .miami:hover {
-  color: #00ff00;
+	color: #29fc30;
 	border-bottom: 3px solid;
-	border-color: rgba(0, 255, 0, 1);
+	border-color: rgba(41, 252, 48, 1);
 }
 
 
@@ -48,8 +48,8 @@ a:hover, a:focus {
 /*Main*/
 
 .intro {
-  height: auto;
-  padding: 12rem 0 0;
+	height: auto;
+	padding: 12rem 0 0;
 }
 
 
@@ -57,7 +57,7 @@ a:hover, a:focus {
 /*Footer*/
 
 .footer {
-  height: auto;
+	height: auto;
 	padding: 6rem 0;
 }
 
@@ -72,23 +72,23 @@ a:hover, a:focus {
 /*Small only*/
 @media screen and (max-width: 39.9375em) {
   p, .miami{
-    font-size: 1.375rem;
-    line-height: 2rem;
-  }
+		font-size: 1.375rem;
+		line-height: 2rem;
+	}
 }
 
 /*Medium only*/
 @media screen and (min-width: 40em) and (max-width: 63.9375em) {
   p, .miami{
-    font-size: 1.75rem;
-    line-height: 3rem;
-  }
+		font-size: 1.75rem;
+		line-height: 3rem;
+	}
 }
 
 /*Large and up*/
 @media screen and (min-width: 64em) {
   p, .miami{
-    font-size: 2rem;
-    line-height: 3rem;
-  }
+		font-size: 2rem;
+		line-height: 3rem;
+	}
 }
