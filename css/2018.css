@@ -31,16 +31,16 @@ a:hover, a:focus {
 	color: #999;
 }
 
-.miami {
-	color: #29fc30;
+.special {
+	color: #75cdd9;
 	border-bottom: 3px solid;
-	border-color: rgba(41, 252, 48, 0.1);
+	border-color: rgba(117, 205, 217, 0.1);
 }
 
-.miami:hover {
-	color: #29fc30;
+.special:hover {
+	color: #75cdd9;
 	border-bottom: 3px solid;
-	border-color: rgba(41, 252, 48, 1);
+	border-color: rgba(117, 205, 217, 1);
 }
 
 
