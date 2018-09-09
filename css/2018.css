@@ -32,15 +32,15 @@ a:hover, a:focus {
 }
 
 .special {
-	color: #75cdd9;
+	color: #EEFF41;
 	border-bottom: 3px solid;
-	border-color: rgba(117, 205, 217, 0.1);
+	border-color: rgba(238, 255, 65, .1);
 }
 
 .special:hover {
-	color: #75cdd9;
+	color: #EEFF41;
 	border-bottom: 3px solid;
-	border-color: rgba(117, 205, 217, 1);
+	border-color: rgba(238, 255, 65, 1);
 }
 
 
