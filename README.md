@@ -1,5 +1,5 @@
 # Hello
-Welcome to the guts of [my website](http://tjweigel.com). It was built using [Foundation6](http://foundation.zurb.com/docs/) on a 12-column grid.
+Welcome to the guts of [my website](https://tjweigel.com). It was built using [Foundation 6](http://foundation.zurb.com/docs/) on a 12-column grid.
 
 ## Installation
 If you want to use the source code, be my guest:
