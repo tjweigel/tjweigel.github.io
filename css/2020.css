@@ -3,32 +3,33 @@
 /*Typography*/
 
 @font-face {
-	font-family: 'NeueHaasGrotesk';
-	src:	url('/NHaasGroteskDSPro-65Md.woff2') format('woff2'),
-			url('/NHaasGroteskDSPro-65Md.woff') format('woff'),
-			url('/NHaasGroteskDSPro-65Md.ttf') format('truetype');
+	font-family: 'IBM Plex Sans';
+	src:	url('/IBMPlexSans.woff2') format('woff2'),
+		url('/IBMPlexSans.woff') format('woff'),
+		url('/IBMPlexSans.ttf') format('truetype');
 }
 
 h1, h2, h3, h4, h5, h6, p, body {
-	font-family: "NeueHaasGrotesk", sans-serif;
+	font-family: "IBM Plex Sans", sans-serif;
 	font-weight: normal;
 }
 
 body {
-	color: #fff;
-	background: #000;
+	color: #888;
+	background: #010101;
 	text-rendering: optimizeLegibility;
 	-webkit-font-smoothing: antialiased;
 }
 
 a {
 	color: #888;
-	transition: color 0.1s ease;
-	-webkit-transition: color 0.1s ease;
+	transition: opacity 0.3s ease;
+	-webkit-transition: opacity 0.3s ease;
 }
 
 a:hover, a:focus {
-	color: #999;
+	color: #888;
+	opacity: 0.5;
 }
 
 .menu a {
@@ -36,15 +37,15 @@ a:hover, a:focus {
 }
 
 .color {
-	color: #EEFF41;
+	color: #B4CEE5;
 	border-bottom: 3px solid;
-	border-color: rgba(238, 255, 65, .1);
+	border-color: rgba(180, 206, 229, 0.1);
 }
 
 .color:hover {
-	color: #EEFF41;
+	color: #B4CEE5;
 	border-bottom: 3px solid;
-	border-color: rgba(238, 255, 65, 1);
+	border-color: rgba(180, 206, 229, 1);
 }
 
 
