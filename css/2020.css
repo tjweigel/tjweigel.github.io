@@ -44,6 +44,7 @@ a:hover, a:focus {
 
 .color:hover {
 	color: #B4CEE5;
+	opacity: 1;
 	border-bottom: 3px solid;
 	border-color: rgba(180, 206, 229, 1);
 }
