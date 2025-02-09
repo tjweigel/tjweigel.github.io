@@ -1,0 +1,76 @@
+/*---Root---*/
+
+@font-face {
+    font-family: 'PP Neue Montreal';
+    src: url('neuemontreal-medium-webfont.woff2') format('woff2'),
+         url('neuemontreal-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/*---Base---*/
+
+* {
+  -webkit-font-smoothing: antialiased;
+  font-feature-settings: "kern", "liga";
+  text-rendering: optimizeLegibility;
+}
+
+html {
+  font-family: "PP Neue Montreal", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+  font-weight: 500;
+  -webkit-font-smoothing: antialiased;
+  font-feature-settings: "onum" 1, "liga" 1;
+  font-size: var(--font-size);
+  line-height: 1.5;
+  padding: 1.5rem;
+}
+
+body {
+  margin: 3vw 0;
+}
+
+main.container {
+  margin: 0;
+  padding: 0;
+}
+
+@media only screen and (prefers-color-scheme: dark) {
+    :root:not([data-theme]) {
+        body {
+          background-color: black;
+        }
+        .name {
+          color: white;
+        }
+        .copy, a {
+          color: #b8b8b8;
+        }
+        a {
+          text-decoration-color: #777;
+        }
+        a:hover {
+          transition: color 0.2s ease-in;
+          color: #f7f7f7;
+        }
+    }
+}   
+
+@media only screen and (prefers-color-scheme: light) {
+    :root:not([data-theme]) {
+        .name {
+          color: black;
+        }
+        .copy, a {
+          color: #808080;
+        }
+        a {
+          text-decoration-color: #e3e3e3;
+        }
+        a:hover {
+          transition: color 0.2s ease-in;
+          color: #171717;
+        }
+    }
+}            
