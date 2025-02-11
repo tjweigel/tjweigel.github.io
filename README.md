@@ -1,2 +1,2 @@
 # tjweigel.github.io
-My personal website, 2025
+My personal website; 2025
